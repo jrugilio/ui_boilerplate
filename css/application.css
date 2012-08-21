@@ -1,0 +1,38 @@
+header {	
+	text-align: center;
+	width: 100%;
+	background: #eee;
+}
+
+#checkmate-nav {
+	text-align: center;
+	width: 100%;
+	background: #999;
+	margin-bottom: 32px;
+}
+#filter {
+	border:1px solid #ddd;
+	padding: 8px;
+}
+
+
+thead {
+	background-color: #666;
+	color: #fff;
+	border: none !important;
+}
+
+thead th {
+	border: 1px solid #555;
+}
+
+.pink {
+background-color:#ffd9d9;
+}
+
+span.percents {
+	text-align: right;
+	width: 4em;
+	margin-right: 4px;
+	display: inline-block;
+}
