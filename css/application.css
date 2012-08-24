@@ -1,85 +1,99 @@
-/* buttons */
+/*  */
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:100%;
+  color: #333;
+  background-color: #ffffff;
+}
+
+header {	
+	text-align: center;
+	width: 100%;
+	background: #eee;
+}
+
+#checkmate-nav {
+	text-align: center;
+	width: 100%;
+	background: #999;
+	margin-bottom: 32px;
+}
+
+#filter {
+	border:1px solid #ddd;
+	padding: 8px;
+}
+
+thead {
+	background-color: #666;
+	color: #fff;
+	border: none !important;
+}
+
+thead th {
+	border: 1px solid #555;
+}
+
+
 
 .btn {
-    padding: 2px 8px;
-}
-
-.btn .caret {
-    margin: 8px 0 0 4px;
-}
-
-.btn-group > .btn, .btn-group > .dropdown-menu {
-    font-size: 12px;
-}
-
-.btn-group > .dropdown-menu {
-    font-size: 12px;
-}
-
-.dropdown-menu {
-      -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
+  display: inline-block;
+  *display: inline;
+  padding: 4px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 100%;
+  line-height: 20px;
+  *line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  *background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
           border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.dropdown-menu li > a:hover,
-.dropdown-menu li > a:focus,
-.dropdown-submenu:hover > a {
-  color: #333;
-  text-decoration: none;
-  background-color: #e1edce;
-  background-color: #e1edce;
-  background-image: -moz-linear-gradient(top, #e1edce, #e1edce);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e1edce), to(#e1edce));
-  background-image: -webkit-linear-gradient(top, #e1edce, #e1edce);
-  background-image: -o-linear-gradient(top, #e1edce, #e1edce);
-  background-image: linear-gradient(to bottom, #e1edce, #e1edce);
-  background-repeat: repeat-x;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#e1edce', endColorstr='#e1edce', GradientType=0);
+.negative {
+background-color:#ffd9d9;
 }
 
-.dropdown-menu .active > a,
-.dropdown-menu .active > a:hover {
-  color: #ccc;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: #e1edce;
-  background-color: #e1edce;
-  background-image: linear-gradient(to bottom, #e1edce, #e1edce);
-  background-image: -moz-linear-gradient(top, #e1edce, #e1edce);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e1edce), to(#e1edce));
-  background-image: -webkit-linear-gradient(top, #e1edce, #e1edce);
-  background-image: -o-linear-gradient(top, #e1edce, #e1edce);
-  background-repeat: repeat-x;
-  outline: 0;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#e1edce', endColorstr='#e1edce', GradientType=0);
-}
-
-/* icons */
-
-[class^="icon-"],
-[class*=" icon-"] {
+span.percents {
+	text-align: right;
+	width: 4em;
 	margin-right: 4px;
-	background-image: url("../images/glyphicons-halflings.png");
+	display: inline-block;
 }
 
-/* White icons with optional class, or on hover/active states of certain elements */
-
-.icon-white,
-.nav > .active > a > [class^="icon-"],
-.nav > .active > a > [class*=" icon-"],
-.dropdown-menu > li > a:hover > [class^="icon-"],
-.dropdown-menu > li > a:hover > [class*=" icon-"],
-.dropdown-menu > .active > a > [class^="icon-"],
-.dropdown-menu > .active > a > [class*=" icon-"] {
-	background-image: url("../images/glyphicons-halflings-white.png");
+footer {
+	padding: 16px 8px 0 8px;
+	margin:32px 0 0 0;
+	border-top:1px solid #ccc;
+	text-align:center;
 }
-
-/* forms input */
-
-label, input, button, select, textarea {
-    font-size: 100%;
-    font-weight: normal;
-    line-height: auto;
-}
-
